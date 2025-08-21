@@ -71,6 +71,7 @@ http://127.0.0.1:8000/
 📸 Screenshots
 <img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
 
+<img width="1920" height="1080" alt="Login_page" src="https://github.com/user-attachments/assets/ed4d4196-a736-42d4-9f17-5c57f68d324c" />
 
 
 - [Registration Page](Screenshots/registration_page.png)
