@@ -13,7 +13,7 @@ It allows users to **register, login, and logout**, with form validation and a s
 - Form validation (Django + jQuery)
 - User authentication (login/logout)
 - Success page after signup
-- Responsive UI (based on Colorlib template)
+- Responsive UI (based on Bootstrap template)
 
 ---
 
