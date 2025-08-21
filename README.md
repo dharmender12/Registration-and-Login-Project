@@ -4,6 +4,8 @@ This is a simple **Registration and Login system** built with **Django**.
 It allows users to **register, login, and logout**, with form validation and a success page after registration.
 
 ---
+<img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
+
 
 ## ⚡ Features
 - User registration with:
@@ -25,7 +27,6 @@ It allows users to **register, login, and logout**, with form validation and a s
 
 ---
 
-<img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
 
 
 ## 📂 Project Structure
