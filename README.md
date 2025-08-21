@@ -27,6 +27,7 @@ It allows users to **register, login, and logout**, with form validation and a s
 
 ---
 
+<img width="1920" height="1080" alt="Login_page" src="https://github.com/user-attachments/assets/ed4d4196-a736-42d4-9f17-5c57f68d324c" />
 
 
 ## 📂 Project Structure
@@ -42,6 +43,8 @@ Registration-and-Login-Project/
 │── manage.py # Django project manager
 │── README.md # Project documentation
 ```
+
+<img width="1920" height="1080" alt="success_page" src="https://github.com/user-attachments/assets/9a7d2411-bf69-44e9-bf1d-618ea9806baa" />
 
 ## 🚀 How to Run Locally
 1. Clone the repository:
@@ -74,11 +77,6 @@ python manage.py migrate
 http://127.0.0.1:8000/
 ```
 📸 Screenshots
-
-
-<img width="1920" height="1080" alt="Login_page" src="https://github.com/user-attachments/assets/ed4d4196-a736-42d4-9f17-5c57f68d324c" />
-
-<img width="1920" height="1080" alt="success_page" src="https://github.com/user-attachments/assets/9a7d2411-bf69-44e9-bf1d-618ea9806baa" />
 
 - [Registration Page](Screenshots/registration_page.png)
 - [Login Page](Screenshots/Login_page.png)
