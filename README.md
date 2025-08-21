@@ -69,11 +69,9 @@ python manage.py migrate
 http://127.0.0.1:8000/
 ```
 📸 Screenshots
-🔹 Registration Page
-
-🔹 Login Page
-
-🔹 Success Page
+- [Registration Page](Screenshots/registration_page.png)
+- [Login Page](Screenshots/Login_page.png)
+- [Success Page](Screenshots/success_page.png)
 
 
 
