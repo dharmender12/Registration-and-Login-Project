@@ -64,8 +64,16 @@ python manage.py migrate
    ```
    python manage.py runserver
 
-6. http://127.0.0.1:8000/
+6. Open in browser:
+```
+http://127.0.0.1:8000/
+```
+📸 Screenshots
+🔹 Registration Page
 
+🔹 Login Page
+
+🔹 Success Page
 
 
 
