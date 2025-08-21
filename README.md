@@ -25,6 +25,9 @@ It allows users to **register, login, and logout**, with form validation and a s
 
 ---
 
+<img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
+
+
 ## 📂 Project Structure
 
 ```
@@ -52,10 +55,6 @@ python -m venv venv
 source venv/bin/activate   # for Linux/Mac
 venv\Scripts\activate      # for Windows
 ```
-
-<img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
-
-
 
 3. Install dependencies:
 ```bash
