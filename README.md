@@ -27,3 +27,21 @@ It allows users to **register, login, and logout**, with form validation and a s
 
 ## 📂 Project Structure
 
+```
+Registration-and-Login-Project/
+│── register_and_login/ # Main Django app
+│ ├── templates/ # HTML templates (signup, login, success)
+│ ├── static/ # CSS, JS, Images
+│ ├── views.py # App views (register, login, success, logout)
+│ ├── urls.py # App-level URLs
+│── project_name/ # Django project settings
+│── manage.py # Django project manager
+│── README.md # Project documentation
+```
+
+
+
+
+
+
+
