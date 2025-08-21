@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+   
+	<!--Bootstrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+	<style>
+		.card {
+			width: 500px;
+			height: auto;
+			margin-top: auto;
+			margin-bottom: auto;
+			background-color: rgba(239, 230, 230, 0.6) !important;
+		}
+
+		.input-group {
+			margin: 20px auto;
+			width: 80%;
+		}
+
+		.social_icon span {
+			font-size: 80px;
+			margin: 10px;
+			color: #FFC312;
+			cursor: pointer;
+		}
+		.social_icon span:hover {
+			color: white;
+		}
+
+		.form-control::placeholder {
+			color: #715959;
+			opacity: 1;
+		}
+
+		.login_btn {
+			width: 150px;
+			font-size: 18px;
+			background-color: #FFC312;
+			color: black;
+		}
+		.login_btn:hover {
+			background-color: white;
+			color: rgb(97, 86, 86);
+		}
+	</style>
+</head>
+<body class="bg-dark">
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header text-center">
+				<h3 style="color: white;">Sign In</h3>
+				<div class="d-flex justify-content-center social_icon">
+					<span><i class="fab fa-facebook-square"></i></span>
+					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-twitter-square"></i></span>
+				</div>
+			</div>
+			<div class="card-body text-center">
+				<form method="POST" action="">
+					{% csrf_token %}
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" name="username" class="form-control" placeholder="Username" required>
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" name="password" class="form-control" placeholder="Password" required>
+					</div>
+					<div class="row align-items-center remember text-left" style="padding-left: 40px;">
+						<input type="checkbox"> Remember Me
+					</div>
+                    <div class="form-group mt-3">
+						<input type="submit" value="Login" class="btn login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Don't have an account? 
+					<a href="{% url 'register' %}">Sign Up</a>   <!-- ✅ Correct register link -->
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">Forgot your password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
