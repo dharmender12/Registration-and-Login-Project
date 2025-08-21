@@ -39,7 +39,27 @@ Registration-and-Login-Project/
 │── README.md # Project documentation
 ```
 
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dharmender12/Registration-and-Login-Project.git
+   cd Registration-and-Login-Project
 
+
+2. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+source venv/bin/activate   # for Linux/Mac
+venv\Scripts\activate      # for Windows
+```
+3. Install dependencies:
+```bash
+pip install django
+```
+4. Run migrations:
+```
+python manage.py migrate
+```
 
 
 
