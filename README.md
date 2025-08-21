@@ -69,6 +69,10 @@ python manage.py migrate
 http://127.0.0.1:8000/
 ```
 📸 Screenshots
+<img width="1920" height="1080" alt="registeration_page" src="https://github.com/user-attachments/assets/6af7d963-10be-473a-b0ca-659497e4f075" />
+
+
+
 - [Registration Page](Screenshots/registration_page.png)
 - [Login Page](Screenshots/Login_page.png)
 - [Success Page](Screenshots/success_page.png)
